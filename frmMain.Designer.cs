@@ -177,7 +177,7 @@ namespace AS2122_AngeliniAlex_3G_Inf_gestionePizzeria
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAggiungi);
             this.Name = "frmMain";
-            this.Text = "Form1";
+            this.Text = "AS2122-AngeliniAlex_3G_Inf_getsionePizzeria";
             this.ResumeLayout(false);
             this.PerformLayout();
 
