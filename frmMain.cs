@@ -20,7 +20,24 @@ namespace AS2122_AngeliniAlex_3G_Inf_gestionePizzeria
         
         private void btnAggiungi_Click(object sender, EventArgs e)
         {
+            int quant = 0;
+
+
+            if (txtQuantita.Text != "")
+            {
+                quant = Convert.ToInt32(txtQuantita.Text);
+            }
+            else
+            {
+                MessageBox.Show("Inserisci la quantità di pizze");
+                return;
+            }
+
+
             
+
+
+
 
 
         }
