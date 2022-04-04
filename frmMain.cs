@@ -33,8 +33,24 @@ namespace AS2122_AngeliniAlex_3G_Inf_gestionePizzeria
                 return;
             }
 
+            switch (cmbPizze.Text)
+            {
+                case "Margherita":
+                    lblMargherita.Text = Convert.ToString(margherita += quant);
+                    lstRiepilogo.Items.Add("Margherita: " + margherita);
+                    break;
 
-            
+                case "Diavola":
+                    lblDiavola.Text = Convert.ToString(diavola += quant);
+                    lstRiepilogo.Items.Add("Diavola: " + diavola);
+                    break;
+
+                case "4 Stagioni":
+                    lblStagioni.Text = Convert.ToString(quattroStagioni += quant);
+                    lstRiepilogo.Items.Add("4 stagioni: " + quattroStagioni);
+                    break;
+            }
+
 
 
 
