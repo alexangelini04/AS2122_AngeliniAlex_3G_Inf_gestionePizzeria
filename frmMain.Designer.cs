@@ -129,6 +129,10 @@ namespace AS2122_AngeliniAlex_3G_Inf_gestionePizzeria
             // cmbPizze
             // 
             this.cmbPizze.FormattingEnabled = true;
+            this.cmbPizze.Items.AddRange(new object[] {
+            "Margherita",
+            "Diavola",
+            "4 Stagioni"});
             this.cmbPizze.Location = new System.Drawing.Point(33, 61);
             this.cmbPizze.Name = "cmbPizze";
             this.cmbPizze.Size = new System.Drawing.Size(145, 21);
