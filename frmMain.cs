@@ -50,12 +50,6 @@ namespace AS2122_AngeliniAlex_3G_Inf_gestionePizzeria
                     lstRiepilogo.Items.Add("4 stagioni: " + quattroStagioni);
                     break;
             }
-
-
-
-
-
-
         }
     }
 }
